@@ -3,9 +3,10 @@ var request = require('request');
 var cheerio = require('cheerio');
 var express = require('express');
 var app = express();
+var router = express.Router();
 
 
-app.get('/', function(req, res) {
+router.get('/', function(req, res) {
     url = 'https://twitter.com/UMassBabyBerk';
     request(url, function(error, response, html) {
         if (!error) {
@@ -23,4 +24,4 @@ app.get('/', function(req, res) {
 })
 
 
-module.exports = app;
+module.exports = router;
