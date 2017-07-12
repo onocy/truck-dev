@@ -1,6 +1,4 @@
-
-
-<nav class="navbar navbar-default">
+<!-- <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Where's my Baby?</a>
@@ -11,21 +9,32 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav> -->
 
-<div class = "container">
-  <div class = "row">
-    <div class = "col-md-4">
-      <div class = "panel panel-default">
-        <app-menu></app-menu>
-      </div>
-      <div class = "panel panel-default">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+    <h1 class="display-3">Where's my Baby?</h1>
+    <p class="lead">The UMass Baby Berk Food Truck Tracker.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="panel panel-default">
         <app-twitter></app-twitter>
       </div>
     </div>
-    <div class = "col-md-8">
-      <div class = "panel panel-default">
+    <div class="col-md-8">
+      <div class="panel panel-default">
         <app-map></app-map>
+      </div>
+    </div>
+  </div>
+  <div class = "row">
+    <div class = "col-md-12">
+      <div class="panel panel-default">
+      <app-menu></app-menu>
       </div>
     </div>
   </div>
