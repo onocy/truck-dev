@@ -1,13 +1,28 @@
+
+#all {
+  background-color: #E0F7FA;
+}
+
+
 .jumbotron {
-    background-color: #FFEBEE;
-    padding: 0.25em 0.3em;
-    h1 {
-        font-size: 2em;
-    }
-    p {
-        font-size: 1.2em;
-        .btn {
-            padding: 0.5em;
-        }
-    }
+    background-color: #FFFFFF;
+    padding: 0.25em 0.25em;
+}
+
+.jumbotron h1{
+  font-family: 'Yellowtail';
+
+}
+
+.jumbotron p {
+
+}
+
+#btn{
+  padding-bottom: 10px;
+}
+
+#btn .btn{
+    background-color: #FFFBFE;
+    textcolor: #000000;
 }

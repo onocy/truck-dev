@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  babyOne:boolean = true;
+  color: string =  "#FFFBFE";
+
+  swapBabies(){
+    this.babyOne = !this.babyOne;
+    if(this.color ==  "#FFFBFE"){
+      this.color = "#009900";
+    }
+    else{
+      this.color = "#FFFBFE";
+    }
+    console.log(this.color);
+  }
+
 }

@@ -10,32 +10,35 @@
     </div>
   </div>
 </nav> -->
-
+<div id = "all">
 <div class="jumbotron jumbotron-fluid">
   <div class="container text-center">
-    <h1 class="display-3">Where's my Baby?</h1>
+    <h1 class="display-3">Where's My Baby?</h1>
     <p class="lead">The UMass Baby Berk Food Truck Tracker.</p>
-  </div>
+<div id = "btn"> <button class = "btn" (click) = "swapBabies()">Swap Babies</button>
+</div>
+</div>
 </div>
 
 <div class="container">
   <div class="row">
     <div class="col-md-2">
       <div class="panel panel-default">
-        <app-twitter></app-twitter>
+        <app-twitter [babyOne] = "babyOne"></app-twitter>
       </div>
     </div>
     <div class="col-md-10">
       <div class="panel panel-default">
-        <app-map></app-map>
+        <app-map [babyOne] = "babyOne"></app-map>
       </div>
     </div>
   </div>
   <div class = "row">
     <div class = "col-md-12">
       <div class="panel panel-default">
-      <app-menu></app-menu>
+      <app-menu [babyOne] = "babyOne"></app-menu>
       </div>
     </div>
   </div>
+</div>
 </div>
