@@ -12,8 +12,62 @@ import { AppComponent} from '../app.component';
 })
 export class MapComponent implements OnInit {
   data: any;
-  lat:number;
-  lng: number;
+  currLocation: any;
+
+  lat: number =  42.391642;
+  lng: number = -72.519154;
+
+//regex : \d?:?\d\d-\d?:?\d?\d
+//today|tonight
+//all locations...
+//We'll need to take the tweet, and scan it from left to right. first for keyword: tonight/today, then locations, then find time corresponding to the location, then find next location...etc. 
+
+ coordinates = {
+  ohill: {
+      lat: 42.391642,
+      lng: -72.519154
+  },
+  kennedy: {
+      lat: 42.384399,
+      lng: -72.529378
+  },
+  hampden: {
+      lat: 42.382773,
+      lng: -72.529356
+  },
+  whitmore: {
+      lat: 42.385919,
+      lng: -72.527357
+  },
+  curry: {
+      lat: 42.386752,
+      lng: -72.528156
+  },
+  design: {
+      lat: 42.388198,
+      lng: -72.523055
+  },
+  north_east: {
+      lat: 42.394648,
+      lng: -72.525743
+  },
+  haigis: {
+      lat: 42.387250,
+      lng: -72.526114
+  },
+  fleet_services: {
+      lat: 42.394274,
+      lng: -72.532870
+  },
+  student_union: {
+      lat: 42.390724,
+      lng: -72.528186
+  },
+  dubois: {
+    lat: 42.390054,
+    lng: -72.528260
+  }
+}
 
   @Input() babyOne: boolean = true;
 
@@ -25,11 +79,17 @@ export class MapComponent implements OnInit {
    }
 
   ngOnInit() {
-    this.lat = 42.3912;
-    this.lng = -72.5267;
+    this.currLocation = this.coordinates.student_union;
+    this.lat = this.currLocation.lat;
+    this.lng = this.currLocation.lng;
+    console.log(this.lat);
+    console.log(this.lng);
   }
-  ngOnChanges(){
 
+  ngOnChanges(){
+    //adjust lat + lang based on value of babyone.
   }
+
+
 
 }
