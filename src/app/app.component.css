@@ -5,21 +5,28 @@
 
 .footer{
   background color: #add8e6;
+  color: #add8e6;
 }
 
 
 .jumbotron {
-    background-color: #add8e6;
+    background-color: #ADD8E6;
     padding: 0.25em 0.25em;
 }
 
 .jumbotron h1{
   font-family: 'Yellowtail';
-
+  padding-bottom: 1px;
 }
 
 .jumbotron p {
+  padding-top: 1px;
+}
 
+.jumbotron img{
+  height: 100px;
+  width: 100px;
+  display: inline-block;
 }
 
 #btn{

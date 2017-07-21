@@ -1,3 +1,6 @@
+BB1
+------------
+
 Burgers*
 
 Grass Fed All-Natural Beef Burger
@@ -73,3 +76,54 @@ $3.50
 
 Onion Rings
 $3.50
+
+
+
+BB2
+---------------------
+
+Today's Menu
+CLASSIC CHEESE QUESADILLA
+
+A Grilled 10" Flour Tortilla, Filled with a blend of Cheddar and Monterey Jack Cheeses
+$5.00
+Served with salsa & sour cream
+
+SIDES
+Tater Tots $3.00
+Natural Cut Fries $3.00
+Sweet Potato Fries $3.50
+
+SNACKS
+Deep River Chips $1.50
+UMass Bakeshop Cookies $1.50
+Fresh Fruit $1.25
+
+BEVERAGES
+Can of Soda $1.25
+Bottled Water $2.00
+
+
+
+SPECIALTY QUESADILLAS
+
+All served on a grilled 10" Flour Tortilla, and filled with a blend of Cheddar and Monterey Jack Cheeses
+*Make any Quesadilla a Melt on Fresh UMass Bakeshop Italian Bread at no additional cost (sandwiches may contain egg)
+
+BB2 BBQ Quesadilla $6.25
+BBQ Pulled Pork, House-made Mac & Cheese and Caramelized Onions
+
+Hampshire Quesadilla $6.75
+Sliced Prime Rib, A Fresh Cracked Fried Egg, Applewood Smoked Bacon and a side of Garlic Aioli
+
+Huevos Rancheros $6.25
+Spicy Chorizo, A Fresh Cracked Fried Egg, Black Beans, Guacamole and a side of Salsa
+
+Korean Spicy Chicken $6.00
+Sweet and Spicy Korean Fried Chicken, Scallions, Kimchi and Tater Tots
+
+Thai BBQ Chicken Quesadilla $6.25
+Coconut Curry Thai BBQ Chicken, Shredded Carrots and Broccoli Crowns with Sweet Piquanté Peppers
+
+Poutine Quesadilla $6.25
+Sliced Prime Rib, Dill Pickles, Tater Tots and a side of Beef Gravy

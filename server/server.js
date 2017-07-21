@@ -11,38 +11,16 @@ var router = express.Router();
 
 
 // Get our API routes
-const api = require('./server/routes/api');
-
-const app = express();
-
+// const api = require('./server/routes/api');
 // Point static path to dist
 app.use(express.static(path.join(__dirname, 'dist')));
-
-
-
-router.get('/', function(req, res) {
-    url = 'https://twitter.com/UMassBabyBerk';
-    request(url, function(error, response, html) {
-        if (!error) {
-            var $ = cheerio.load(html);
-            var json = {
-                title: ""
-            };
-            json.title = $('[class^="TweetTextSize"]').first().text();
-        }
-        fs.writeFile('output.json', JSON.stringify(json, null, 4), function(err) {
-            console.log('File successfully written! - Check your project directory for the output.json file');
-        })
-        res.send('Check your console!')
-    });
-})
 
 
 module.exports = router;
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist/index.html'));
+  res.sendFile(path.join(__dirname, 'dist/index.html'));]]
 });
 
 /**

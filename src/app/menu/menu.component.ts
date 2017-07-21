@@ -13,9 +13,7 @@ export class MenuComponent implements OnChanges{
   constructor() { }
 
   ngOnChanges() {
-    
+
   }
-
-
 
 }
