@@ -2,9 +2,6 @@ import { Component, OnChanges, OnInit, Input } from '@angular/core';
 import { ServicesComponent } from '../services/services.component';
 import { AppComponent} from '../app.component';
 
-
-
-
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
@@ -20,56 +17,58 @@ export class MapComponent implements OnInit {
 //regex : \d?:?\d\d-\d?:?\d?\d
 //today|tonight
 //all locations...
-//We'll need to take the tweet, and scan it from left to right. first for keyword: tonight/today, then locations, then find time corresponding to the location, then find next location...etc. 
+//We'll need to take the tweet, and scan it from left to right. first for keyword: tonight/today, then locations, then find time corresponding to the location, then find next location...etc.
 
  coordinates = {
-  ohill: {
+  "ohill": {
       lat: 42.391642,
       lng: -72.519154
   },
-  kennedy: {
+  "kennedy": {
       lat: 42.384399,
       lng: -72.529378
   },
-  hampden: {
+  "hampden": {
       lat: 42.382773,
       lng: -72.529356
   },
-  whitmore: {
+  "whitmore": {
       lat: 42.385919,
       lng: -72.527357
   },
-  curry: {
+  "curry": {
       lat: 42.386752,
       lng: -72.528156
   },
-  design: {
+  "design": {
       lat: 42.388198,
       lng: -72.523055
   },
-  north_east: {
+  "north_east": {
       lat: 42.394648,
       lng: -72.525743
   },
-  haigis: {
+  "haigis": {
       lat: 42.387250,
       lng: -72.526114
   },
-  fleet_services: {
+  "fleet_services": {
       lat: 42.394274,
       lng: -72.532870
   },
-  student_union: {
+  "student_union": {
       lat: 42.390724,
       lng: -72.528186
   },
-  dubois: {
+  "dubois": {
     lat: 42.390054,
     lng: -72.528260
   }
 }
 
-  @Input() babyOne: boolean = true;
+  // @Input() babyOne: boolean = true;
+  @Input() pointQueueOne: any;
+  // @Input() pointQueueTwo: any;
 
   constructor(private service: ServicesComponent) {
     // this.service.getTasks()
@@ -79,17 +78,18 @@ export class MapComponent implements OnInit {
    }
 
   ngOnInit() {
-    this.currLocation = this.coordinates.student_union;
+
+    this.currLocation = this.findLocation();
     this.lat = this.currLocation.lat;
     this.lng = this.currLocation.lng;
-    console.log(this.lat);
-    console.log(this.lng);
   }
 
   ngOnChanges(){
     //adjust lat + lang based on value of babyone.
   }
 
+  findLocation(){
 
+  }
 
 }

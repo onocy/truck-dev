@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpModule, Http } from '@angular/http';
+import {HttpClientModule} from '@angular/common/http';
 import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
@@ -18,7 +18,7 @@ import { ServicesComponent } from './services/services.component';
   ],
   imports: [
     BrowserModule,
-    HttpModule,
+    HttpClientModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBGv5NErrmEwgC0c5EJrD-jQ8KEOpnZGVE'
     })
