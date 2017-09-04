@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HttpClientModule} from '@angular/common/http';
+// import { HttpClientModule } from '@angular/common/http';
 import { AgmCoreModule } from '@agm/core';
+// import { TwitterService } from 'ng2-twitter';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
@@ -18,7 +20,7 @@ import { ServicesComponent } from './services/services.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
+    HttpModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBGv5NErrmEwgC0c5EJrD-jQ8KEOpnZGVE'
     })

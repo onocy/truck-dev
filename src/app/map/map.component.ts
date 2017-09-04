@@ -66,7 +66,7 @@ export class MapComponent implements OnInit {
   }
 }
 
-  // @Input() babyOne: boolean = true;
+  @Input() babyOne: boolean = true;
   @Input() pointQueueOne: any;
   // @Input() pointQueueTwo: any;
 
@@ -78,8 +78,8 @@ export class MapComponent implements OnInit {
    }
 
   ngOnInit() {
-
-    this.currLocation = this.findLocation();
+    // this.currLocation = this.findLocation();
+    this.currLocation = this.coordinates.ohill;
     this.lat = this.currLocation.lat;
     this.lng = this.currLocation.lng;
   }

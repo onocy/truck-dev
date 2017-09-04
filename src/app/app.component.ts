@@ -12,7 +12,7 @@ export class AppComponent implements OnInit{
   color: string =  "#FFFBFE";
 
 ngOnInit(){
-  this.num = 2; 
+  this.num = 2;
 }
 
   swapBabies(){
