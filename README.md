@@ -1,3 +1,3 @@
 # TruckTrack 
 
-![Screenshot]\(https://imgur.com/lsfYl9V) 
+[Imgur](https://i.imgur.com/lsfYl9V.png)
