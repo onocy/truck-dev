@@ -1,6 +1,3 @@
 # TruckTrack 
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-
-
+![Screenshot]\(https://imgur.com/lsfYl9V) 
